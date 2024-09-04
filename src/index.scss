@@ -1,0 +1,36 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.app-container {
+  text-align: center;
+  color: $primary-text;
+  border-radius: 5%;
+
+  &__header {
+    font-size: 40px;
+    background-color: $primary-dark;
+    color: $primary-text;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  &__player {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: center;
+  }
+}

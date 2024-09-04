@@ -1,0 +1,12 @@
+@import "../../variables";
+
+.action-btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  border: none;
+  margin: 2px;
+  cursor: pointer;
+  background-color: $primary-dark;
+  color: $primary-text;
+}
