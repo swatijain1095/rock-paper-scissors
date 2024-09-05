@@ -4,17 +4,15 @@
   margin: 30px;
   width: 150px;
   height: 150px;
-  border-radius: 20%;
   display: flex;
   flex-direction: column;
   background-color: $primary-text;
   color: $primary-text;
 
   &__name {
-    padding: 6px;
-    font-size: x-large;
-    font-weight: bold;
-    border-radius: 20px 20px 0 0;
+    padding: 4px;
+    font-size: large;
+    font-weight: 500;
     background-color: $primary-dark;
   }
 

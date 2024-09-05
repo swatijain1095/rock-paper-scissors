@@ -14,7 +14,7 @@ const ActionButton = ({
 }: ActionButtonProps) => {
   return (
     <button className="action-btn" onClick={() => onActionSelected(action)}>
-      <ActionIcon action={action} size={40} />
+      <ActionIcon action={action} size={50} />
     </button>
   );
 };
